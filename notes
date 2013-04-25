@@ -1,0 +1,177 @@
+Receptive fields: 
+	Center-Surround Receptive Fields in the Retina
+--
+	On-Center
+	Off-Surround
+--
+	Off-Center
+	On-Surround
+--
+Descriptive model: 
+What
+
+Descriptive models summarize large amounts of experimental data compactly yet accurately, thereby characterizing what 
+neurons and neural circuits do.  These models may be based loosely on biophysical, anatomical, and physiological findings,
+but their primary purpose is to describe phenomena, not to explain them. 
+--
+Mechanistic model:
+How
+Mechanistic models are designed to show how a neural system goes about accomplishing a particular function.
+
+Mechanistic models, on the other hand, address the question of how nervous systems operate on the
+basis of known anatomy, physiology, and circuitry. Such models often form a bridge between descriptive models
+couched at different levels. 
+--
+Interpretive Model:
+Why
+
+Interpretive models use computational and information-theoretic principles to explore the behavioral and conitive significance of
+various aspects of nervous system function, addressing the question of why nervous systems operate as they do. 
+--
+
+Neuron - ~25µm 
+
+Neuron Doctrine: 
+*) The neuron is the fundamental structral & functional unit of the brain
+*) Neurons are discrete cells and not continuous with other cells
+*) Information flows from the dendrites to the axon via the cell body
+
+--
+Dendrites are the input ends of the neuron, wheras axons are the output ends
+--
+Spikes ( output) from a neuron occur when:
+The sum of inputs from neighboring neurons reaches a certain threshold.
+--
+
+Other neurons' outputs cause some of this neuron's gates to open and allow in a diffferent concentration of 
+ions, which leads to a strong depolarization and increases the chance of a spike. 
+
+Inputs from other neurons -> 
+Strong enough depolarization causes a spike or 'action potential' 
+
+Strong depolarization opens Na+ ( Sodium ) channels causing rapid Na+ influx 
+
+
+Ionic channels - gated:
+Voltage-gated:
+  Probability of opening depends on membrane voltage
+Chemically-gated:
+   Binding to a chemical causes channel to open
+Mechanically-gated:
+  Sensitive to pressure or stretching
+
+Synapse: Junction between neurons
+  Electrical synapses: use gap junctions
+  Chemical synapses: use neurotransmitters
+  
+Electrical synapses - bidirectional, fast, no gain
+Chemical synapses - asymetrical, slower, gain possible, use neurotransmitters
+
+XXXX
+False: a chemical synapse is used for smooth coordination of  several neurons, whereas 
+the electrical synapse is used for applications in which a customized amount of current
+transmission is desired between neurons upon spiking, such as in building memories. 
+XXXX
+
+The chemical synapses are those more predominantly used in things like memory formation 
+as these chemicals also have the ability to alter synaptic interactions in the synaptic cleft,
+whereas electrical synapses are a means by which networks of neurons  can coordinate, and in some cases
+synchronize their outputs.
+
+Synapses can be Excitatory or Inhibitory
+
+Excitatory synapses increase postsynaptic membrane potential ( EPSP - excitatory postsynaptic potential )
+Inhibitory synapses decrease postsynaptic membrane potential ( IPSP - inhibitory postsynaptic potential )
+
+Chemical synapses are thought to be basis for memory and learning. 
+
+-Synaptic Plasticity 
+
+Hebbian Plasticity: If neuron A repeatedly takes part in firing neuron B, then the synapse 
+                    from A to B is strengthened. 
+"Neurons that fire together wire together"
+
+LTP: Long term potentiation - 
+     Experimentally observed incease in synaptic strength that lasts for hours or days
+
+LTD: Long term depression
+     Experimentally observed decrease in synaptic strength that lasts for hours or days 
+
+--
+
+Peripheral Nervous System ( PNS ) 
+- Somatic: Nerves connecting to voluntary skeletal muscles and sensory receptors
+  -- Afferent Nerve Fibers ( incoming ) : Axons that carry info PNS => CNS
+  -- Efferent Nerve Fibers ( outgoing ) : Axons that carry info CNS => PNS 
+
+- Autonomic: Nerves that connect to the heart, blood vessels, smooth muscles, and glands
+
+Central Nervous System ( CNS ) : Spinal Cord + Brain
+- Spinal Cord: 
+  -- Local feedback loops control reflexes ( "reflex arcs" ) 
+  -- Descending motor control signals from the brain activate spinal motor neurons 
+  -- Ascending sensory axons convey sensory information from muscles and skin back to the brain 
+
+- Brain
+
+ -The Hindbrain
+ -- Medulla Oblongata: Breathing, muscle tone and blood pressure
+ -- Pons: Connected to the cerebellum & involved in sleep & arousal 
+ -- Cerebellum: Coordination and timing of voluntary movements, sense of equilibrium, language, attention
+
+ -Midbrain & Reticular Formation 
+ --Midbrain - Eyemovements, visual and auditory reflexes 
+ --Reticular Formation - Modulates muscle reflexes, breathing & pain perception. Also regulates sleep, wakefulness & arousal
+
+ -Thalamus & Hypothalamus
+ --Thalamus - Relay station for all sensory info ( excpet smell ) to the cortex, regulates sleep/wakefulness
+ --Hypothalamus - Regulates basic needs - ( "4 Fs" ): Fighting, Fleeing, Feeding, and Frackin' 
+
+ -The Cerebrum - Involved in perception and motor control, cognitive functions, emotion, memory, and learning
+ --Cerebal cortex
+ --Basal ganglia
+ --Hippocampus
+ --Amygdala
+
+Details on Cerebral Cortex: A Layerred Sheet of Neurons
+- Convoluted surfce of cerebrum, about 1/8th of an inch thick
+  --Approximately 30 billion neurons
+  --Each neuron makes about 10,000 synapses, approximately 300 trillion connections in total
+
+- Six layers of neurons
+  --Relatively uniform in structure
+  --Is there a common computational principle operating across cortex?  ** unanswered question ** 
+
+How do all of these brain regions interact to produce cognition and behavior? 
+** we don't know!! ** 
+
+Neural versus Digital Computing
+* Device count:
+  Human Brain: 10^11 neurons ( each neuron ~ 10^4 connections )
+  Silicon Chip: 10^10 transistors with sparse connectivity
+* Device speed:
+  Biology has 100µs temporal resolution
+  Digital circuits are approaching a 100ps clock ( 10 GHz ) 
+* Computing paradigm:
+  Brain: Massively parallel computation & adaptive connectivity
+  Digital Computers: sequential information processing via CPUs with fixed connectivity
+*Capabilities:
+ Brains: Better at solving ill-posed problems ( speech, vision )
+ Digital computers: excel in math & symbol processing
+
+---
+
+Structure and organization of the brain suggests computational analogies
+ Information storage: Physical/chemical structure of neurons and synapses
+ Information transmission: Electrical and chemical signaling
+ Primary computing elements: Neurons
+ Computational basis: Currently unknown ( !! ) 
+
+In this course, we will try to understand the computation in the brain through: 
+ Descriptive models
+ Mechanistic models
+ Intrepretive models
+
+
+
+
