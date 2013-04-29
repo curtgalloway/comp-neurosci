@@ -172,6 +172,32 @@ In this course, we will try to understand the computation in the brain through:
  Mechanistic models
  Intrepretive models
 
+-----------------
+20130429
+-----------------
+fMRI : measured by blood flow to areas of the brain where neurons are active - time measured in seconds
+EEG  : faster response time - catches electrical fields directly 
+
+Downside to both methhods: Neither gives as clean a signal as we would like with respect to temporal and spatial resolution.
+
+Electrode array: can measure from a single neuron 
+Calcium imaging: Calcium enters into the cell during action potentials - so measuring calcium measures which are active 
+
+The definition of a strong response in this context is one where a particular cell fires very reliably to a particular feature of the stimulus so that every time it occurs ( throughout the stimulus or across iterations ) the cell fires. 
+
+Encoding: P( response | stimulus ) 
+Decoding: P( stimulus | response ) 
+response - spike 
+What is the stimulus? We  don't know. 
+
+---
+Tuning curves are built around the ideal stimulus of the cell. That is, the particular attribute of a stimulus, light bar orientation in this case, that causes an optimal firing rate ( say 45 degrees). This point corresponds to the peak of the Gaussian tuning curve, while the spread, or width , of the curve corresponds to the range ( say 40-50 degrees) that still elicit a response from the cell, but a lesser one. As such, we generally conduct tuning curve experiments on cell types we have already indentified to find the particular attribute(s) of a stimulus that the cell prefers. 
+
+At each successive step up through the visual system, the cells respond preferentially to more and more complex shapes ( and even ideas) as a result of the differential firing patterns of spikes within the layers below them that are being fed upward. Inter-connectivity between each of the layers also plays a major role. 
+
+
+
+
 
 
 
