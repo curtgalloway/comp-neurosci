@@ -195,9 +195,41 @@ Tuning curves are built around the ideal stimulus of the cell. That is, the part
 
 At each successive step up through the visual system, the cells respond preferentially to more and more complex shapes ( and even ideas) as a result of the differential firing patterns of spikes within the layers below them that are being fed upward. Inter-connectivity between each of the layers also plays a major role. 
 
+--
+20130430
+--
 
+In other words, the Fourier transform gives us a way to: 
 
+*) Decompose a signal into a sum of simple sine waves
+*) Look at the amplitudes of various frequencies present in the signal
+*) Solve problems with a different view of the signal.
 
+( Very commonly it transforms a mathematical function of time, f(t), into a new function, sometimes denoted by f^ or F, 
+whose argument is frequency with units of cycles/sec ( hertz ) or radians per second. The new function is then known as the Fourier transform and/or the frequency spectrum of the function f. )
+
+Gaussian prior stimulus distribution: 
+Spike-conditional distribution: Correlated with the appearance of a spike - P(stim | spike)
+Spike-triggered average ( center of Spike-conditional distribution ) 
+
+covariance
+Principal component analysis (PCA): 
+-Visualization of high dimensional data
+-Find essential attributes/variables
+-Dimensionality reduction
+
+*) Find a representation of our data which has a lower dimensionality, giving us a computationally easier problem to work with
+*) Find the vectors along which the variation of our data is maximal in our feature space, which we call the most significant 
+   "eigen vectors" of our covariance matrix.
+
+--
+Covariance analysis allows us to find spike-conditioned feature dynamics which we cannot see through the spike-triggered average alone. 
+--
+
+As Prof. Fairhall shows in the video, the spike-triggered average gives us a simple view of the average stimulus that lead up to a spike, 
+but because of its simplicity, it cannot capture some of the interesting dynamics that can occur. In this case, if a cell responds to both, positive/negative changes and netagive/positive changes, this can average out the spike-triggered average, making it look like a flat line. That does not give us much useful description. 
+
+--
 
 
 
